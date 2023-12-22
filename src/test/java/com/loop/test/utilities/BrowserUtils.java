@@ -29,4 +29,7 @@ public class BrowserUtils {
         }
         assertTrue(driver.getTitle().toLowerCase().contains(expectedTitle));
     }
+
+    //public static void switchWindow
+
 }
