@@ -4,6 +4,7 @@ import com.loop.pages.LoopPracticeDynamicLoading1;
 import com.loop.test.utilities.BrowserUtils;
 import com.loop.test.utilities.ConfigurationReader;
 import com.loop.test.utilities.Driver;
+import org.checkerframework.checker.units.qual.C;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -42,7 +43,4 @@ public class T3_dynamic_loading1 {
         loopPracticeDynamicLoading1.submitButton.click();
         loopPracticeDynamicLoading1.errorMessage.isDisplayed();
     }
-
-
-
 }
